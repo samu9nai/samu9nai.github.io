@@ -42,8 +42,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-gist
-  - jekyll-github-metadata
   - jekyll-redirect-from
   - jekyll-archives
   - jekyll-seo-tag
