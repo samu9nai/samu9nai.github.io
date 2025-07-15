@@ -32,11 +32,19 @@ contact_channels:
   # mastodon: "https://lile.cl/"
   # threads: "https://www.threads.net/@example"
   # linkedin: "https://www.linkedin.com/in/example/"
-  
+
+theme: awesome-jekyll-theme
+
 ##
 # Plugins configuration
 ##
 plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-redirect-from
   - jekyll-archives
   - jekyll-seo-tag
   - jekyll-polyglot
