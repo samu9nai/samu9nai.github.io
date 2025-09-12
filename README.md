@@ -1,8 +1,8 @@
 # 머리말 (Preface)
 
-이 블로그는 `2025 Sep 07` 기준의 [saicaca/fuwari](https://github.com/saicaca/fuwari) Repository를 기준으로 제작되어 약간의 변형을 거쳤습니다.
+이 블로그는 `2025 Sep 07` 기준의 [saicaca/fuwari](https://github.com/saicaca/fuwari) Repository를 기준으로 제작되어 약간의 변형을 거쳤습니다.</br>
 원본 Repository의 README는 아래를 참조하세요. </br>
-This blog is based on the [saicaca/fuwari](https://github.com/saicaca/fuwari) repository as of `2025 Sep 07`, with some modifications.
+This blog is based on the [saicaca/fuwari](https://github.com/saicaca/fuwari) repository as of `2025 Sep 07`, with some modifications. </br>
 Please refer to the original repository's README below.
 
 ---

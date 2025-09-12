@@ -4,17 +4,7 @@ export type SiteConfig = {
 	title: string;
 	subtitle: string;
 
-	lang:
-		| "en"
-		| "zh_CN"
-		| "zh_TW"
-		| "ja"
-		| "ko"
-		| "es"
-		| "th"
-		| "vi"
-		| "tr"
-		| "id";
+	lang: "en" | "ja" | "ko";
 
 	themeColor: {
 		hue: number;
@@ -48,7 +38,6 @@ export enum LinkPreset {
 	Home = 0,
 	Archive = 1,
 	About = 2,
-	Projects = 3,
 }
 
 export type NavBarLink = {

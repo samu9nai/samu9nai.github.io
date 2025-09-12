@@ -6,7 +6,24 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Roboto", "sans-serif", ...defaultTheme.fontFamily.sans],
+        // 우선순위: 영문 Nunito → 한글 Pretendard → 일본어 Zen Maru Gothic → 시스템 폴백
+        sans: [
+          "Nunito",
+          "Pretendard",
+          "Zen Maru Gothic",
+          "Apple SD Gothic Neo",
+          "Hiragino Kaku Gothic ProN",
+          "Noto Sans CJK KR",
+          "Noto Sans CJK JP",
+          "Noto Sans KR",
+          "Noto Sans JP",
+          "system-ui",
+          "Segoe UI",
+          "Helvetica",
+          "Arial",
+          "sans-serif",
+          ...defaultTheme.fontFamily.sans,
+        ],
       },
     },
   },

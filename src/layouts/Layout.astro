@@ -1,7 +1,22 @@
 ---
-import "@fontsource/roboto/400.css";
-import "@fontsource/roboto/500.css";
-import "@fontsource/roboto/700.css";
+// UI 본문 폰트: Nunito(영문) + Pretendard(한글) + Zen Maru Gothic(일본어)
+import "@fontsource/nunito/400.css";
+import "@fontsource/nunito/500.css";
+import "@fontsource/nunito/700.css";
+import "pretendard/dist/web/static/pretendard.css";
+import "@fontsource/zen-maru-gothic/400.css";
+import "@fontsource/zen-maru-gothic/500.css";
+import "@fontsource/zen-maru-gothic/700.css";
+
+// Global styles (Tailwind + theme + markdown + custom)
+import "@/styles/variables.styl";
+import "@/styles/main.css";
+import "@/styles/markdown.css";
+import "@/styles/markdown-extend.styl";
+import "@/styles/expressive-code.css";
+import "@/styles/transition.css";
+import "@/styles/scrollbar.css";
+import "@/styles/photoswipe.css";
 
 import ConfigCarrier from "@components/ConfigCarrier.astro";
 import { profileConfig, siteConfig } from "@/config";
