@@ -51,8 +51,8 @@ importers:
         specifier: ^1.2.4
         version: 1.2.4
       '@iconify-json/material-symbols':
-        specifier: ^1.2.51
-        version: 1.2.51
+        specifier: ^1.2.52
+        version: 1.2.52
       '@iconify/svelte':
         specifier: ^5.2.1
         version: 5.2.1(svelte@5.46.4)
@@ -1106,8 +1106,8 @@ packages:
   '@iconify-json/ic@1.2.4':
     resolution: {integrity: sha512-pzPMmrZrBQuwT7nmtrYdkttun8KalRGgZPIL1Ny9KpF2zjRGIUPN+npTfuD3lrgO/OnSwAoJWuekQwBpt/Cqrw==}
 
-  '@iconify-json/material-symbols@1.2.51':
-    resolution: {integrity: sha512-GkxlK8ocHi3NVVozaW62jm3qR9fNY3xX2penFtIRvoe1OtNhJ2KD4KRzv8x34pugMOAZYK8sALMcU30gDgCi1A==}
+  '@iconify-json/material-symbols@1.2.52':
+    resolution: {integrity: sha512-vOBmoF2J5GeKgaTqOcdIHjuPXcGVvjRMlviGgE1jKAh85iXSsFmLVxiJKMXvijrGVLmcqrkEmkMiSem7uWfGpA==}
 
   '@iconify/svelte@5.2.1':
     resolution: {integrity: sha512-zHmsIPmnIhGd5gc95bNN5FL+GifwMZv7M2rlZEpa7IXYGFJm/XGHdWf6PWQa6OBoC+R69WyiPO9NAj5wjfjbow==}
@@ -4547,6 +4547,7 @@ packages:
   tar@7.5.2:
     resolution: {integrity: sha512-7NyxrTE4Anh8km8iEy7o0QYPs+0JKBTj5ZaqHg6B39erLg0qYXN3BijtShwbsNSvQ+LN75+KV+C4QR/f6Gwnpg==}
     engines: {node: '>=18'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exhorbitant rates) by contacting i@izs.me
 
   terser@5.44.1:
     resolution: {integrity: sha512-t/R3R/n0MSwnnazuPpPNVO60LX0SKL45pyl9YlvxIdkH0Of7D5qM2EVe+yASRIlY5pZ73nclYJfNANGWPwFDZw==}
@@ -6181,7 +6182,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/material-symbols@1.2.51':
+  '@iconify-json/material-symbols@1.2.52':
     dependencies:
       '@iconify/types': 2.0.0
 
